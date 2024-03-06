@@ -27,5 +27,5 @@ for apartment in apartments:
 
 driver.quit()
 
-df = pd.DataFrame(data, columns=['Название', 'Цена'])
+df = pd.DataFrame(data,columns=['Название', 'Цена'])
 df.to_excel('apartments.xlsx', index=False)
